@@ -1,10 +1,10 @@
-package com.bankweb.customer;
+package com.bankweb.utility.account;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CustomerServiceApplicationTests {
+class UtilityAccountServiceImplApplicationTests {
 
 	@Test
 	void contextLoads() {

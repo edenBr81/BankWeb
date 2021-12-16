@@ -10,7 +10,7 @@ spring:
         - id: ACCOUNT-SERVICE
           uri: lb://ACCOUNT-SERVICE
           predicates:
-            - Path=/accounts/**
+            - Path=/account/**
         - id: ADDRESS-SERVICE
           uri: lb://ADDRESS-SERVICE
           predicates:
@@ -31,6 +31,10 @@ spring:
           uri: lb://CUSTOMER-SERVICE
           predicates:
               - Path=/customers/**
+        - id: USER-SERVICE
+            uri: lb://USER-SERVICE
+            predicates:
+              - Path=/user/**
 
 
 
